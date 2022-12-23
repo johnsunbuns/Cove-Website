@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boostrap Website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <!-- Nav Bar -->
+
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <div class="container">
+        <a href="#" class="navbar-brand">Cove - College Events</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto text-center">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="issues.html" class="nav-link">Issues</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero bg-dark text-light p-5 text-center text-sm-start">
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-center">
+          <div>
+            <h1>
+              Get the
+              <span class="text-warning fw-bold">COVE</span> app
+            </h1>
+            <p class="lead my-3 mb-lg-5">
+              The all-in-one event platform for UT students, organizations, and
+              community members!
+            </p>
+            <div class="container pt-3">
+              <div class="mt-lg-1 row gy-1">
+                <div
+                  class="col-xxl-2.5 col-lg-3 col-md-4 col-sm-5 d-flex justify-content-center justify-content-sm-start gx-0"
+                >
+                  <div class="box">
+                    <a
+                      class="app-store"
+                      href="https://onelink.to/qzxdck"
+                      target="_blank"
+                      ><img
+                        class="img-fluid"
+                        src="images/Available_on_the_App_Store_(black).png"
+                        alt="available on app store"
+                    /></a>
+                  </div>
+                </div>
+                <div
+                  class="col-xxl-2.5 col-lg-3 col-md-4 col-sm-5 d-flex justify-content-center justify-content-sm-start gx-0 mx-sm-2"
+                >
+                  <div class="box">
+                    <a
+                      class="play-store"
+                      href="https://onelink.to/qzxdck"
+                      target="_blank"
+                      ><img
+                        class="img-fluid"
+                        src="images/new-google-play.png"
+                        alt="available on play store"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img
+            class="img-fluid w-50 d-none d-sm-block"
+            src="images/giant-phone.svg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="hero-curve">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+    </section>
+    <!-- app highlights -->
+    <section class="app-highlights p-5 text-center text-dark bg-light text-sm-start">
+      <div class="container">
+        <!-- article 1 -->
+        <article class="row justify-content-center mb-5 d-flex flex-row">
+          <section class="col-sm-6">
+            <h2 class="mt-sm-2">Discover UT Events</h3>
+            <p class="lead">
+              Our home page is always full of events made for students. We have
+              a team posting events everyday, and students/orgs are submitting
+              listings too!
+            </p>
+          </section>
+          <img class="screenshots" src="images/new-home.PNG" />
+        </article> 
+        <!-- article 2 -->
+        <article class="row justify-content-center mb-5 d-flex flex-row-reverse">
+          <section class="col-sm-6">
+            <h2 class="text-sm-end mt-sm-2">Thorough Details</h3>
+            <p class="lead text-sm-end">
+              Tired of vague or hard-to-read flyers? We put all the information
+              you need in print, including exclusive details, location, entry
+              fees, and more!
+            </p>
+          </section>
+          <img class="screenshots" src="images/details-screenshot.PNG" />
+        </article>
+        <!-- article 3 -->
+        <article class="row justify-content-center mb-5 d-flex flex-row">
+          <section class="col-sm-6">
+            <h2 class="mt-sm-2">Tickets & RSVP</h3>
+            <p class="lead">
+              Orgs and hosts can set up RSVP and sell tickets directly through
+              our platform! Guests will recieve QR-codes so they can check-in to
+              events swiftly.
+            </p>
+          </section>
+          <img class="screenshots" src="images/ticket-screenshot.PNG" />
+        </article>
+        <!-- article 4 -->
+        <article class="row justify-content-center mb-5 d-flex flex-row-reverse">
+          <section class="col-sm-6">
+            <h2 class="text-sm-end mt-sm-2">So Much More!</h3>
+            <p class="text-sm-end lead">
+                We have plenty of other features that you will love, and we are
+                constantly updating the app to make the experience better for
+                both students and orgs/hosts.
+            </p>
+          </section>
+          <img class="screenshots" src="images/posted-time-screenshot.PNG" />
+        </article>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
